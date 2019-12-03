@@ -42,4 +42,4 @@ _by Kelvin Wang_
 * `git checkout -- <file>...` is used to undo changes in the directory you are working in.
 * `git reset HEAD <file>` is used to unstage something/undo an add.
 * `git reset HEAD^ <file>` is used to uncommit something.
-* To un-push use `git push -f origin HEAD^:master`. This will undo the git push!
+* To un-push use `git push -f origin HEAD^:master` This will undo the git push!
