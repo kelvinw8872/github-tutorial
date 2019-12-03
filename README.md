@@ -38,4 +38,4 @@ _by Kelvin Wang_
 
 ---
 ## Rolling Back Changes
-* If you want to undo an edit
+* If you want to undo an edit in your ide, use git status. It will tell you how to undo this. `git checkout -- <file>...` is used to undo changes in the directory you are working in. 
