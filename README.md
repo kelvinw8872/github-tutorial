@@ -18,9 +18,9 @@ _by Kelvin Wang_
 ## Repository Setup
 1. create a repository on github.
 2. go to your IDE and create a repository!
-3. CD into it then `Git init` to intitialize git.
-4. Whenever you make a change do `Git add .` This will add the changes to the stage.
-5. After adding you can commit it by doing `Git commit -m "<commit message>"` This will save the changes made 
+3. CD into it then `git init` to intitialize git.
+4. Whenever you make a change do `git add .` This will add the changes to the stage.
+5. After adding you can commit it by doing `git commit -m "<commit message>"` This will save the changes made 
 ---
 ## Workflow & Commands
 `git init` is used to turn the directory you want into a repository. This should only be done once in the beginning. It intializes git in our directory for version-control.   
@@ -38,4 +38,8 @@ _by Kelvin Wang_
 
 ---
 ## Rolling Back Changes
-* If you want to undo an edit in your ide, use git status. It will tell you how to undo this. `git checkout -- <file>...` is used to undo changes in the directory you are working in. 
+* If you want to undo an edit in your ide, use git status. It will tell you how to undo this. 
+* `git checkout -- <file>...` is used to undo changes in the directory you are working in.
+* `git reset HEAD <file>` is used to unstage something/undo an add.
+* `git reset HEAD^ <file>` is used to uncommit something.
+* To un-push use `git push -f origin HEAD^:master`. This will undo the git push!
