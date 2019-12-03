@@ -34,7 +34,7 @@ _by Kelvin Wang_
 
 `git status` is used to keep track of your work. It displays all changes made so you can see if everything is alright. It can also be used to find errors in code for you to fix. 
 
-    * While coding make sure to use git status to make sure there are no errors and everything is working. Add and commit while making changes and push when you feel it is ready. 
+* While coding make sure to use git status to make sure there are no errors and everything is working. Add and commit while making changes and push when you feel it is ready. 
 
 ---
 ## Rolling Back Changes
